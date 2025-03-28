@@ -244,7 +244,9 @@ tr em {
 }
 /* Changing home page */
 /* 390px for mobile phones */
-@media (min-width: 300px) and (max-width: 819px) { 
+@media (min-width: 300px) and (max-width: 767px) { 
+
+ 
 
     header {
         display: none
@@ -359,7 +361,8 @@ tr em {
 
 
 /* MEDIA QUERIES IPAD 820 */
-@media (min-width: 820px) and (max-width: 1000px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
+   
     header {
         display: none
     }
@@ -379,7 +382,6 @@ tr em {
         max-width: 300px;
 
     }
-    
 
 }
 
